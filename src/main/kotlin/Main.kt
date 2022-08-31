@@ -1,14 +1,10 @@
 fun main(args: Array<String>) {
-    println(capitalizeSentence("flower"))
-    println(capitalizeSentence("this is a house"))
+    // println(capitalizeSentence("flower"))
+    // println(capitalizeSentence("this is a house"))
+    //println(MathPlayground.getOdd(listOf(4, 6, 8, 7, 9)))
+    //println(MathPlayground.containsRange(5..8, 5..9))
+    //println(MathPlayground.addUpTo(3))
+    //println(MathPlayground.getIndex(listOf("A", "B", "C"), "C"))
+    println(MathPlayground.countDown(4))
 }
 
-fun capitalizeSentence(string: String): String {
-    val result = buildString {
-        string.split(" ").map {
-            this.append(it.replaceFirst(it.first(), it.first().uppercaseChar()))
-            append(" ")
-        }
-    }
-    return result.trim()
-}
