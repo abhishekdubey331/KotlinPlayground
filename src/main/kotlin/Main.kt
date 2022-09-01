@@ -9,6 +9,7 @@ fun main(args: Array<String>) {
     //println(MathPlayground.containsRange(5..8, 5..9))
     //println(MathPlayground.addUpTo(3))
     //println(MathPlayground.getIndex(listOf("A", "B", "C"), "C"))
-    println(MathPlayground.countDown(4))
+    //println(MathPlayground.countDown(4))
+    println(StringPlayground.formatTrainRoute(listOf("Luton", "Harpenden", "London")))
 }
 
